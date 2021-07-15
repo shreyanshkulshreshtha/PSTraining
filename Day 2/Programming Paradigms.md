@@ -12,6 +12,7 @@
 
 *Q. Is there any specific Ordering of these concepts?*
 There is no specific order. These features in theory are independent of each other, i.e. having one does not affect the availablility of others, although in implementation they might be tied to one other.
+
 ---
 
 ### Learnings
