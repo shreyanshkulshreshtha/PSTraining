@@ -32,7 +32,6 @@
 | ClassName |
 | --------- |
 | Fields    |
-| --------- |
 | Methods   |
 
 ## Beyond Encapsulation - Inheritence
