@@ -12,6 +12,7 @@
   * Record
 
 > ValueType -> ReferenceType -- Boxing
+> 
 > ReferenceType -> ValueType -- Unboxing
 
 * Class can contain
@@ -31,7 +32,6 @@
 | ClassName |
 | --------- |
 | Fields    |
-| --------- |
 | Methods   |
 
 ## Beyond Encapsulation - Inheritence
