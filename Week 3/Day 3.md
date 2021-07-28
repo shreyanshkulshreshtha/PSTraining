@@ -1,0 +1,2 @@
+### Feature Engineering
+Given a [document of requirement](https://github.com/venu-shastri/sapient-dotnet-core-knowledge-repo/blob/main/FeatureMesh_Functional_requirement.docx), we need to read it, get an understanding of the requirements and think about the architecture to be used.
