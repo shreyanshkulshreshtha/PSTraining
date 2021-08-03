@@ -1,10 +1,10 @@
 ### Assignment
 * Credit card validator (using TDD)
 * Checks on credit card number
-  * *Luhn Algorithm*
+  * *Luhn Algorithm* for checksum
   * Major Industry Identifier (MII)
   * Issuer Identification Number
-  * Personal Account Number and Checksum
+  * Personal Account Number
 * For our purpose, we'll go with only Master and Visa cards
 
 * Input 

@@ -1,3 +1,8 @@
+### Assignment
+* Generate API documentation using Swagger.
+* Generate client code for the API using Nswag (or Nswag Studio).
+* Use this client code to write a console app for calculating EMI.
+
 ### API Documentation
 * *OpenAPI* - A specification standard for api metadata.
 * *Swagger* - A tool based on OpenAPI specs for multiple platforms.
@@ -23,10 +28,11 @@ In `Configure` function in the `Startup.cs` file,
 * `OnActionExecuting()` and `OnActionExecuted()` methods available.
 * To add these filters, use `services.AddControllers(options => options.Filters.Ass (new Filters.FILTERNAME))` in the `Configure()` method.
 
-### Tasks
+### Assignment
 * Custom Middleware - 
-  * `CardNumber.sapient` is given, respond back with the respective file contents.
-  * The file contains the card number, name, limit in its own format.
-  * Response format should be "cardnumber | name | limit"
+  * Credit card information for different people are stored in separate files named "CardNumber.sapient".
+  * The file contents are in the following format - `CardNumber,Name,Limit`
+  * When a user gives cardnumber.sapient in the URL, the corresponding file's content should be displayed in the given format - `cardnumber | name | limit`
 * Exception Handling -
-  * Handle exceptions and also provide the information what went wrong.
+  * Write code to handle exceptions in the ASP.NET API created for fetching .sapient card numbers in the previous task.
+  * We can use either custom middleware or filters to achieve this
