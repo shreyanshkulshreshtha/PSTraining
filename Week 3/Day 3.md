@@ -1,5 +1,5 @@
 ### Feature Engineering
-* Bird view of the problem.
+* Bird eye view of the problem.
 * Given a [document of requirement](https://github.com/venu-shastri/sapient-dotnet-core-knowledge-repo/blob/main/FeatureMesh_Functional_requirement.docx), we need to read it, get an understanding of the requirements and think about the architecture to be used.
 * Another [document](https://github.com/venu-shastri/sapient-dotnet-core-knowledge-repo/blob/main/AsiaPac%20Business%20domain%20problem.docx) given, read this as well and try to figure out the architecture required.
 * Things to explore

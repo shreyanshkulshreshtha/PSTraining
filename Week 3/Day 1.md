@@ -13,8 +13,7 @@
   - Is valid?
   - MII
   - Issuing Authority
-  - Personal Account Numebr
-  - Checksum digit
+  - Personal Account Number
 
 References
 * [https://www.zeolearn.com/magazine/logic-of-credit-card-number](https://www.zeolearn.com/magazine/logic-of-credit-card-number)
