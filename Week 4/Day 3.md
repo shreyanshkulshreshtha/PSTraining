@@ -16,8 +16,8 @@
 * UI Layer
   * Rich UI
   * Reachable UI
-  * ? //Find it
-  * Headless UI (Architecture) //Look into it
+  * ? `//Find it`
+  * Headless UI (Architecture) `//Look into it`
 ```
     Rich        Reachable
      UI            UI
@@ -90,11 +90,57 @@ If we directly update the DOM, the overall updation of the UI is slow.
 
 To solve this, we use **React** which optimises the updation of DOM so that it is faster updation of the UI.
 
-## React
+> React Prerequisites
+> * JS
+> * HTML
+> * CSS
+> * TypeScript
+> * Node.JS
 
-**Prerequisites**
-* JS
-* HTML
-* CSS
-* TypeScript
-* Node.JS
+# JavaScript
+* Scope
+* Variable hoisting
+* Prototypes
+* IIFE (?)
+* Closures
+* Constructors
+* Binding
+* `this`
+
+```
+---
+Missing part
+---
+```
+
+* Everything is an object
+* Dynamic language
+  * Elastic nature
+
+> <https://developer.mozilla.org/en-US/docs/Web/javascript>
+  
+### JS Functions
+When we create a function using 
+```
+function test() {
+
+}
+```
+it creates an object in the memory as a key-value pair table.
+```
++-----------+---------+     +-----------+--------+       +------+------+
+| prototype |   o---------> |           |        |       |      |      |
++-----------+---------+     +-----------+--------+       +------+------+
+|           |         |     |           |        |       |      |      |
++-----------+---------+     +-----------+--------+       +------+------+
+| __proto__ |         |     | __proto__ |   o----------> |      |      |
++-----------+---------+     +-----------+--------+       +------+------+
+          test                  test.prototype           Object.prototype
+                                                     (Common for all objects)
+```
+
+When function is **invoked**, it applies the function and the execution is *two pass execution*. `//Look it up`
+
+In the first pass, it creates an object `localScope` in the memory with the arguments and local variables. It also adds a special member to the object called `this`. During the first pass, arguments are initialized. All other local variables are initialized as `undefined`.
+
+In the second pass, the execution begins. It takes the required values from the `localScope` and after the operations, the values are also updated in the `localScope` object. The final value is returned from the object and this `localScope` object is garbage collected.
