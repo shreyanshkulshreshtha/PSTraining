@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function onButtonClick() {
+            //Ajax 
+            var httpRequest = new XMLHttpRequest();
+            httpRequest.onreadystatechange = onAjaxRequestStateChanged;
+            httpRequest.open("GET", "api/values/servertime", true);
+            httpRequest.send();
+            function onAjaxRequestStateChanged() {
+                console.log("Request State Changed " + httpRequest.readyState);
+                if (httpRequest.readyState == 4 && httpRequest.status == 200) {
+                    document.getElementById("resultArea").innerText = httpRequest.responseText;
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="onButtonClick()">GetServerTime</button>
+    <output id="resultArea"></output>
+</body>
+
+</html>
