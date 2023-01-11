@@ -25,9 +25,9 @@
   * Events
 
 * Class Diagram
-  * + : Public
-  * - : Private
-  * # : Protected
+  * \+ : Public
+  * \- : Private
+  * \# : Protected
 
 | ClassName |
 | --------- |
